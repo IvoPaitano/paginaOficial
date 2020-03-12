@@ -144,22 +144,28 @@ header .cajaBuscador input[type=text]:focus{
 }
 .contenedorProyectos .proyectos .proyecto{
     width: 31%;
-    /* opacity: .7; */
     border: 1px solid #8A8585;
     padding: 1% 1%;
     margin: 1%;
     box-sizing: border-box;
 }
 .contenedorProyectos .proyectos .proyecto:hover{
-    /* opacity: 1; */
     cursor: pointer;
 }
-.contenedorProyectos .proyectos .proyecto img{
+.contenedorProyectos .proyectos .proyecto .contenido{
+    box-sizing: border-box;
     width: 100%;
+    height: 80%;
 }
-.contenedorProyectos .proyectos .proyecto h4{
+.contenedorProyectos .proyectos .proyecto .titulo{
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
     font-size: 1.3em;
-    margin-bottom: 0px;
+}.contenedorProyectos .proyectos .proyecto .contenido img{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
 }
 /* FIN PROYECTOS */
 
@@ -378,6 +384,7 @@ footer{
     .motivacion{
         display: none;
     }
+    header .cajaBuscador input[type=text]:focus{
+        width: 20em;
+    }
 }
-
-
