@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/7c0733f34b.js"></script>
+    <script src="https://kit.fontawesome.com/80526742d6.js" crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="all" href="paginaOficial.css">
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+    <script src=""></script>
+
+    <title>Paitano Ivo</title>
+
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="cajaBuscador">
+            <div class="buscador">
+                <i class="fas fa-search"></i>
+                <input id="inputBuscador" type="text" placeholder="Buscar...">
+            </div>
+            <div class="logo">
+                <a href="file:///C:/Users/54116/Desktop/Ivo/Pagina%20Oficial%20Paitano%20Ivo/paginaOficial.html"><i class="fas fa-blog"></i></a>
+            </div>
+    </header>
+
+
+    <div class="contenedorBanner x">
+            <h1>PAITANO IVO</h1>
+            <p>Developer</p>
+    </div>
+
+
+    <div class="navbar x">
+        <i id="icono" class="fas fa-bars menu"></i>
+            <ul id="lista">
+                <li id="liAcercaDeMi"><a  href="#contenedorAcercaDeMi">ACERCA DE MI</a></li>
+                <li><a href="#contenedorProyectos">PROYECTOS</a></li>
+                <li><a href="#contenedorContacto">CONTACTO</a></li>
+                <li><a href="#contenedorRedesSociales">REDES SOCIALES</a></li>
+            </ul>
+    </div>
+
+    
+    <div id="contenedorAcercaDeMi" class="contenedorAcercaDeMi x">
+        <h2>ACERCA DE MI</h2>
+        <div class="acercaDeMi">
+            <img class="imagen" src="https://i.ytimg.com/vi/xYrxY-8ZhVI/hqdefault.jpg" alt="">
+            <p>
+                Soy un estudiante que apoya al 100% el aprendizaje autodidacta.
+                Me gradue en la secundaria "ET. N37 DE 20 HNSM" como tecnico en computacion, tambien finalize un curso introductorio en Plataforma5,
+                actualmente sigo aprendiendo desde internet mediante cursos pagos y gratuitos. 
+                Entre mis hobbies esta el ejercicio, cocinar y por supuesto la programacion web. 
+                Debajo estan todos los proyectos que realice, podrian ser mis "skills". 
+                Saludos.
+            </p>
+        </div>
+    </div>
+
+
+    <div id="contenedorProyectos" class="contenedorProyectos x">
+        <h2>PROYECTOS</h2>
+        <div class="proyectos">
+            <div class="proyecto">
+                <img src="img/1.jpg" alt="">
+                <h4>Color Game</h4>
+            </div>
+
+            <div class="proyecto">
+                <img src="img/2.jpg" alt="">
+                <h4>To Do List</h4>
+            </div>
+
+            <div class="proyecto">
+                <img src="img/3.jpg" alt="">
+                <h4>Weather Channel</h4>
+            </div>
+
+            <div class="proyecto">
+                <img src="img/4.jpg" alt="">
+                <h4>Boostrap</h4>
+            </div>
+
+            <div class="proyecto">
+                <img src="img/5.jpg" alt="">
+                <h4>Your Salary</h4>
+            </div>
+            
+            <div class="proyecto">
+                <img src="img/6.jpg" alt="">
+                <h4>CRUD</h4>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="contenedorContacto" class="contenedorContacto x">
+        <h2>CONTACTO</h2>
+                <form action="" class="formulario">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                    <input type="email" name="mail" id="mail" placeholder="Correo">
+                    <textarea name="mensaje" placeholder="Mensaje"></textarea>
+
+                    <input type="button" value="Enviar">
+                </form>
+    </div>
+
+
+    <div id="contenedorRedesSociales" class="contenedorRedesSociales x">
+        <div class="redesSociales">
+            <a href="https://github.com/IvoPaitano" target="blank"><i class="fab fa-github"></i></a> 
+            <a href="https://www.linkedin.com/in/paitanoivo/" target="blank"><i class="fab fa-linkedin-in"></i></a> 
+            <a href="file:///C:/Users/54116/Desktop/Ivo/Pagina%20Oficial%20Paitano%20Ivo/paginaOficial.html" target="blank"><i class="fas fa-blog"></i></a> 
+            <a href="https://twitter.com/?lang=es" target="blank"><i class="fab fa-twitter"></i></a> 
+            <a href="https://www.instagram.com/ivoomartinez_/?hl=es-la" target="blank"><i class="fab fa-instagram"></i></a> 
+            <a href="https://www.facebook.com/ivo.martinez3" target="blank"><i class="fab fa-facebook-f"></i></a> 
+        </div>
+    </div>
+
+    <div class="contenedorMotivacion">
+        <div class="motivacion x">
+            <div class="fraseElegida">
+                <blockquote>
+                    <p id="frase">
+                        El esfuerzo supera al talento cuando el talento no se esfuerza.
+                    </p>
+                    <cite id="autor">Paitano Ivo</cite>
+                </blockquote>
+            </div>
+            <div class="cambiarFrase">
+                <button id="cambiar">CAMBIAR FRASE</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+<footer class="x">
+    Copyright Paitano Ivo - 2020. Todos los derechos reservados.
+</footer>
+<script src="paginaOficial.js"></script>
+</body>
+</html>
