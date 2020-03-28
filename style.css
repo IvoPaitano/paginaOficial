@@ -376,6 +376,12 @@ footer{
     body{
         font-size: .8em;
     }
+    .contenedorContacto .formulario input[type=text],
+    input[type=email],
+    textarea{
+        width: 100%;
+        display: block;
+    }
 }
 @media (max-width:26.6875em){
     .contenedorProyectos .proyectos .proyecto{
